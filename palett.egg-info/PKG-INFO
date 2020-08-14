@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: palett
+Version: 0.0.0
+Summary: pretty text for command line
+Home-page: https://github.com/pydget/texting.git
+Author: Hoyeung Wong
+Author-email: hoyeungw@outlook.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8,<4.0
