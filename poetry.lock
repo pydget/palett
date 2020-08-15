@@ -4,12 +4,12 @@ description = "numerical tools"
 name = "aryth"
 optional = false
 python-versions = ">=3.8,<4.0"
-version = "0.0.1"
+version = "0.0.2"
 
 [package.dependencies]
-intype = ">=0.0.2,<0.0.3"
-texting = ">=0.0.2,<0.0.3"
-veho = ">=0.0.2,<0.0.3"
+intype = ">=0.0.2"
+texting = ">=0.0.2"
+veho = ">=0.0.2"
 
 [[package]]
 category = "dev"
@@ -142,7 +142,7 @@ description = "misc for string"
 name = "texting"
 optional = false
 python-versions = ">=3.8,<4.0"
-version = "0.0.2"
+version = "0.0.3"
 
 [[package]]
 category = "main"
@@ -161,14 +161,14 @@ python-versions = "*"
 version = "0.2.5"
 
 [metadata]
-content-hash = "1097dea94b1b67cf35dc9116982eae3c1d85ad31e1e3c8ee47274f72ae5aefe4"
+content-hash = "2a568cbe0ba2790da9a320f2f389ff2dc9135a50e88fdb8f7f13c7a4a452f453"
 lock-version = "1.0"
 python-versions = "^3.8"
 
 [metadata.files]
 aryth = [
-    {file = "aryth-0.0.1-py3-none-any.whl", hash = "sha256:3eb4cb2fe8c04ca93dd1ff3e934ed673e6fd00545439f06f37862eb8791f011f"},
-    {file = "aryth-0.0.1.tar.gz", hash = "sha256:237c45328704448b53c92a935c09d5cb70ddc4b4a03051ecf06b8cc07b756e16"},
+    {file = "aryth-0.0.2-py3-none-any.whl", hash = "sha256:61eb283fb729bb670f530501ffe3f1e2a488dfec8e83f56ec7b888a830e91387"},
+    {file = "aryth-0.0.2.tar.gz", hash = "sha256:2e0f85a5539bfc51beedf510fe7c2fde5dd7df86f411e051b103279764d44614"},
 ]
 atomicwrites = [
     {file = "atomicwrites-1.4.0-py2.py3-none-any.whl", hash = "sha256:6d1784dea7c0c8d4a5172b6c620f40b6e4cbfdf96d783691f2e1302a7b88e197"},
@@ -219,8 +219,8 @@ six = [
     {file = "six-1.15.0.tar.gz", hash = "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259"},
 ]
 texting = [
-    {file = "texting-0.0.2-py3-none-any.whl", hash = "sha256:9a3ddb824f954e85ccb0ff9965cfe71d3535f3edbfb5bee16fe9f8773eb2f791"},
-    {file = "texting-0.0.2.tar.gz", hash = "sha256:dc5b815f3cba7fd43b1bdd296ba960c1d41cb04c2083ff74b039df5e2c56d378"},
+    {file = "texting-0.0.3-py3-none-any.whl", hash = "sha256:b4b32d43ae01897b9bdd04749ad581c3a27ac9a377c34610abf9f7e884e5748d"},
+    {file = "texting-0.0.3.tar.gz", hash = "sha256:84c39c5c980f09de11c98f7e3ebf5ce3439243678e8fdd6e1210156b9f1463b1"},
 ]
 veho = [
     {file = "veho-0.0.2-py3-none-any.whl", hash = "sha256:5adcfd8cf4e9908404b8e68c4410b0559abcbc64f8c13183bdd1bcdbee7aede6"},
