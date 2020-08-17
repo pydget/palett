@@ -17,13 +17,13 @@ keywords = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-aryth = ">=0.0.2"
-veho = ">=0.0.2"
+aryth = ">=0.0.4"
+veho = ">=0.0.4"
 intype = ">=0.0.2"
 ject = ">=0.0.1"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+pytest = ">=6.0.0"
 texting = ">=0.0.2"
 
 [build-system]
