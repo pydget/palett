@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "palett"
-version = "0.0.3"
+version = "0.0.4"
 description = "pretty text for command line"
 authors = ["Hoyeung Wong <hoyeungw@outlook.com>"]
 license = "MIT"
@@ -17,7 +17,7 @@ keywords = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-aryth = ">=0.0.4"
+aryth = ">=0.0.5"
 veho = ">=0.0.4"
 intype = ">=0.0.2"
 ject = ">=0.0.1"

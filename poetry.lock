@@ -4,7 +4,7 @@ description = "numerical & statistics functions"
 name = "aryth"
 optional = false
 python-versions = ">=3.8,<4.0"
-version = "0.0.4"
+version = "0.0.5"
 
 [package.dependencies]
 intype = ">=0.0.2"
@@ -170,14 +170,14 @@ python-versions = ">=3.8,<4.0"
 version = "0.0.4"
 
 [metadata]
-content-hash = "47ac180453255b4e9e7baf6cdf1552031e4277efceda1b04547974c00877bde3"
+content-hash = "4f976a4433ee52a8896bc68e79099823885902af5b1790a68907938857683769"
 lock-version = "1.0"
 python-versions = "^3.8"
 
 [metadata.files]
 aryth = [
-    {file = "aryth-0.0.4-py3-none-any.whl", hash = "sha256:b24908655505ad45de9967d6caf59884fa719b3d88045f020452ba55dff92cb8"},
-    {file = "aryth-0.0.4.tar.gz", hash = "sha256:a09ef21516b611812744ffd236487d535dc1503bc7b5fc89372d41ea79434254"},
+    {file = "aryth-0.0.5-py3-none-any.whl", hash = "sha256:db5d9a2bb0811a006b0ab06e8c7dc424cb68adb28489914e6b4321e587d764e5"},
+    {file = "aryth-0.0.5.tar.gz", hash = "sha256:c17f7ee043671b33021da5c7f4a94aaf0305b699d2f2dcd40e34888a4328cbf0"},
 ]
 atomicwrites = [
     {file = "atomicwrites-1.4.0-py2.py3-none-any.whl", hash = "sha256:6d1784dea7c0c8d4a5172b6c620f40b6e4cbfdf96d783691f2e1302a7b88e197"},
