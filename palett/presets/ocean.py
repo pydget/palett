@@ -1,5 +1,5 @@
 from palett.cards import indigo, light_blue,  pink
-from palett.preset import Preset
+from palett.structs import Preset
 
 OCEAN = Preset(
     max=light_blue.accent_2,

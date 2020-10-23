@@ -1,5 +1,5 @@
 from palett.cards import blue, cyan, teal
-from palett.preset import Preset
+from palett.structs import Preset
 
 PLANET = Preset(
     max=teal.accent_2,

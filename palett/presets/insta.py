@@ -1,5 +1,5 @@
 from palett.cards import grey, orange, purple
-from palett.preset import Preset
+from palett.structs import Preset
 
 INSTA = Preset(
     max=orange.accent_2,

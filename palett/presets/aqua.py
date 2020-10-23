@@ -1,5 +1,5 @@
 from palett.cards import cyan, green, grey
-from palett.preset import Preset
+from palett.structs import Preset
 
 AQUA = Preset(
     max=cyan.accent_2,

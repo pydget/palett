@@ -1,5 +1,5 @@
 from palett.cards import green, red, yellow
-from palett.preset import Preset
+from palett.structs import Preset
 
 POME = Preset(
     max=red.lighten_2,

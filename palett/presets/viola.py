@@ -1,5 +1,5 @@
 from palett.cards import amber, deep_purple, pink
-from palett.preset import Preset
+from palett.structs import Preset
 
 VIOLA = Preset(
     max=pink.lighten_4,

@@ -1,5 +1,5 @@
 from palett.cards import grey, indigo
-from palett.preset import Preset
+from palett.structs import Preset
 
 SUBTLE = Preset(
     max=grey.lighten_5,

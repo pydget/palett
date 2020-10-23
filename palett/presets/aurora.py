@@ -1,5 +1,5 @@
 from palett.cards import deep_purple, green, teal
-from palett.preset import Preset
+from palett.structs import Preset
 
 AURORA = Preset(
     max=green.accent_3,

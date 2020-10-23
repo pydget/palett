@@ -1,5 +1,5 @@
 from palett.cards import cyan, deep_orange, light_blue
-from palett.preset import Preset
+from palett.structs import Preset
 
 AZURE = Preset(
     max=cyan.accent_1,

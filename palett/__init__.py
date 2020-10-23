@@ -5,4 +5,3 @@ from .convert import \
 from .fluo_entries import fluo_entries
 from .fluo_matrix import fluo_matrix
 from .fluo_vector import fluo_vector
-from .preset import Preset

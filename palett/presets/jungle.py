@@ -1,5 +1,5 @@
 from palett.cards import blue_grey, light_green, lime
-from palett.preset import Preset
+from palett.structs import Preset
 
 JUNGLE = Preset(
     max=lime.accent_3,

@@ -8,6 +8,7 @@ candidates = [
     ['Xx', 'Yy', 'Zz', 'e', 'd', 'c', '-', '1', 2, 3],
     [1, 1, 2, 3, 5, []],
     ['a', 'b', 'c', 'd', 'e'],
+    [1, '1', 2.5, '3.5', 5, []],
     ['beijing', 'shanghai', 'wuhan', 'xiamen', 'changsha']
 ]
 

@@ -1,5 +1,5 @@
 from palett.cards import blue, deep_orange, light_green
-from palett.preset import Preset
+from palett.structs import Preset
 
 FRESH = Preset(
     max=light_green.accent_3,

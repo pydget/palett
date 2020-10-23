@@ -1,5 +1,5 @@
 from palett.cards import amber, grey, red
-from palett.preset import Preset
+from palett.structs import Preset
 
 LAVA = Preset(
     max=amber.accent_3,

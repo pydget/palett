@@ -1,5 +1,5 @@
 from palett.cards import blue, pink, teal
-from palett.preset import Preset
+from palett.structs import Preset
 
 METRO = Preset(
     max=pink.lighten_2,

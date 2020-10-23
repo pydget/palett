@@ -1,5 +1,5 @@
 from palett.cards import cyan, orange, pink
-from palett.preset import Preset
+from palett.structs import Preset
 
 ATLAS = Preset(
     max=cyan.lighten_3,

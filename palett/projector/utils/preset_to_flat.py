@@ -1,4 +1,4 @@
-from palett.preset import Preset
+from palett.structs import Preset
 from palett.projector.utils.hsl_dyer import hsl_dyer
 from palett.projector.utils.parse_hsl import parse_hsl
 
