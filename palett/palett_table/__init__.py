@@ -2,7 +2,7 @@ from ject import oneself
 from pyspare import deco_dict, deco
 
 from palett.convert import hex_rgb, hex_hsl
-from palett.enum.color_space import RGB, HSL, HEX
+from palett.enum.color_spaces import RGB, HSL, HEX
 import palett.cards as cards
 
 print(deco(vars(cards)))

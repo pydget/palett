@@ -1,4 +1,4 @@
-from palett.fluo_vector import fluo_vector
+from palett.fluo.fluo_vector import fluo_vector
 from veho.columns import mapper
 from veho.matrix import transpose
 

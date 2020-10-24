@@ -1,6 +1,6 @@
 from texting import COLF
 
-from palett.fluo_entries import fluo_entries
+from palett import fluo_entries
 from palett.presets import FRESH, PLANET
 
 candidates = [

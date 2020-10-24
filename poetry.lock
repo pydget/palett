@@ -43,7 +43,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
 [[package]]
 name = "crostab"
-version = "0.0.6"
+version = "0.0.8"
 description = "cross table analytical tool"
 category = "main"
 optional = false
@@ -182,7 +182,7 @@ python-versions = "*"
 
 [[package]]
 name = "veho"
-version = "0.0.7"
+version = "0.0.8"
 description = "easy enumerate"
 category = "main"
 optional = false
@@ -191,7 +191,7 @@ python-versions = ">=3.8,<4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "5be871d16432fd0b4a5474f6bf956a72abccb3d0934b542dd7a6be28b557fab8"
+content-hash = "25c2e9b9c079da75702a2a88af1439dce76b373c5228492c3ef799ffac4de558"
 
 [metadata.files]
 aryth = [
@@ -211,8 +211,8 @@ colorama = [
     {file = "colorama-0.4.4.tar.gz", hash = "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"},
 ]
 crostab = [
-    {file = "crostab-0.0.6-py3-none-any.whl", hash = "sha256:dc739db0d89fd7c7154bfc5001831d4554bbbb8af46d4c0f6179fccc4dfd711c"},
-    {file = "crostab-0.0.6.tar.gz", hash = "sha256:fca4920477051739de162214dde768d72e8cf758ef6c3901a4e3bce0365b204f"},
+    {file = "crostab-0.0.8-py3-none-any.whl", hash = "sha256:b32444ddde5988ef9b9ae0e5b033da5d8dd849254590c06c0670a614285537a3"},
+    {file = "crostab-0.0.8.tar.gz", hash = "sha256:86b4a080a7b834f9786f6081a500d3b1882ad846a267042e6b363cde686c0d58"},
 ]
 iniconfig = [
     {file = "iniconfig-1.1.1-py2.py3-none-any.whl", hash = "sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3"},
@@ -263,6 +263,6 @@ toml = [
     {file = "toml-0.10.1.tar.gz", hash = "sha256:926b612be1e5ce0634a2ca03470f95169cf16f939018233a670519cb4ac58b0f"},
 ]
 veho = [
-    {file = "veho-0.0.7-py3-none-any.whl", hash = "sha256:339535634b9df4cb24ec962ecb90e02315e866d43cddd5a920b07e69e25213ce"},
-    {file = "veho-0.0.7.tar.gz", hash = "sha256:0411279a1f980797ff4220fe55cd18d4e168ffbfdd7feb609d70f1a1c7ff41e8"},
+    {file = "veho-0.0.8-py3-none-any.whl", hash = "sha256:f1488d904c7dc455075d796cdfdd6af71618f7f0ff6abf2d1b6f9e87c22a0275"},
+    {file = "veho-0.0.8.tar.gz", hash = "sha256:12d8eb99c32c1e424f8bc8023dfdafa3a8699b4c868f7b743c035e969e4c299a"},
 ]

@@ -2,7 +2,7 @@ import collections
 import types
 
 from palett.dye.color_to_ansi import rgb_ansi, hsl_ansi, hex_ansi
-from palett.enum.color_space import RGB, HEX, HSL
+from palett.enum.color_spaces import RGB, HEX, HSL
 from palett.utils.ansi import Effects, SC, R, L, CLR_FORE
 
 
@@ -39,3 +39,8 @@ class DyeFactory:
         head = enclose(self.head + SC + self.ansi(color))
         tail = enclose(self.tail + SC + CLR_FORE)
         return types.MethodType(dye, Cut(head, tail))
+
+    def render(self, color, text):
+        head = enclose(self.head + SC + self.ansi(color))
+        tail = enclose(self.tail + SC + CLR_FORE)
+        return head + str(text) + tail

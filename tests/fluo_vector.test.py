@@ -1,6 +1,6 @@
 from texting import COSP
 
-from palett.fluo_vector import fluo_vector
+from palett.fluo.fluo_vector import fluo_vector
 from palett.presets import FRESH, PLANET
 
 candidates = [

@@ -1,6 +1,6 @@
 from veho.entries import mutazip, unwind, wind
 
-from palett.fluo_vector import fluo_vector
+from palett.fluo.fluo_vector import fluo_vector
 
 
 def fluo_entries(entries, presets, effects=None, colorant=False, mutate=False):

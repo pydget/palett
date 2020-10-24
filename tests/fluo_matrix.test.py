@@ -2,7 +2,7 @@ from texting import COSP, LF, SP
 from veho.enum.matrix_directions import COLUMNWISE, POINTWISE, ROWWISE
 from veho.matrix import init
 
-from palett.fluo_matrix import fluo_matrix
+from palett.fluo.fluo_matrix import fluo_matrix
 from palett.presets import FRESH, PLANET
 
 candidates = {

@@ -5,7 +5,7 @@ from aryth.enum.bound_keys import DIF, MIN
 from ject.oneself import to_oneself
 
 from palett.dye import DyeFactory
-from palett.enum.color_space import HSL
+from palett.enum.color_spaces import HSL
 from palett.projector.utils.bound_to_leap import bound_to_leap
 from palett.projector.utils.hsl_dyer import hsl_dyer
 from palett.projector.utils.leverage import leverage

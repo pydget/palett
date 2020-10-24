@@ -21,7 +21,7 @@ aryth = ">=0.0.5"
 veho = ">=0.0.7"
 intype = ">=0.0.2"
 ject = ">=0.0.1"
-crostab = ">=0.0.5"
+crostab = ">=0.0.6"
 pyspare = ">=0.0.6"
 
 [tool.poetry.dev-dependencies]

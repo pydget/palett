@@ -1,8 +1,8 @@
 from veho.enum.matrix_directions import COLUMNWISE, POINTWISE, ROWWISE
 
-from palett.fluo_matrix.fluo_columnwise import fluo_columnwise
-from palett.fluo_matrix.fluo_pointwise import fluo_pointwise
-from palett.fluo_matrix.fluo_rowwise import fluo_rowwise
+from palett.fluo.fluo_matrix.fluo_columnwise import fluo_columnwise
+from palett.fluo.fluo_matrix.fluo_pointwise import fluo_pointwise
+from palett.fluo.fluo_matrix.fluo_rowwise import fluo_rowwise
 
 
 def fluo_matrix(mx, direct, presets, effects=None, colorant=False, mutate=False):
