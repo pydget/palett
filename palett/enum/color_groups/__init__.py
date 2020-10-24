@@ -1,11 +1,18 @@
-import palett.cards as cards
+from palett.enum.color_cards import \
+    RED, PINK, \
+    PURPLE, DEEPPURPLE, \
+    INDIGO, BLUE, LIGHTBLUE, CYAN, \
+    TEAL, GREEN, \
+    LIGHTGREEN, LIME, YELLOW, \
+    AMBER, ORANGE, DEEPORANGE, \
+    BROWN, BLUEGREY, GREY
 
-red = [cards.red, cards.pink]
-purple = [cards.purple, cards.deep_purple]
-blue = [cards.indigo, cards.blue, cards.light_blue, cards.cyan]
-green = [cards.teal, cards.green]
-yellow_green = [cards.light_green, cards.lime, cards.yellow]
-orange = [cards.amber, cards.orange, cards.deep_orange]
-grey = [cards.brown, cards.blue, cards.grey]
+red = [RED, PINK, ]
+purple = [PURPLE, DEEPPURPLE, ]
+blue = [INDIGO, BLUE, LIGHTBLUE, CYAN, ]
+green = [TEAL, GREEN, ]
+yellow_green = [LIGHTGREEN, LIME, YELLOW, ]
+orange = [AMBER, ORANGE, DEEPORANGE, ]
+grey = [BROWN, BLUEGREY, GREY]
 rainbow = red + purple + blue + grey + green + yellow_green + orange
 entire = rainbow + grey

@@ -1,15 +1,14 @@
+from crostab import Crostab
 from crostab.convert import samples_to_crostab
 from ject import oneself
-from pyspare import deco
 from texting import CO
-from veho.vector import mapper
 
 import palett.cards as cards
 from palett.convert import hex_rgb, hex_hsl
 from palett.dye import DyeFactory
+from palett.enum.color_groups import entire as entire_colors
+from palett.enum.color_degrees import entire as entire_degrees
 from palett.enum.color_spaces import HEX, RGB, HSL
-from crostab import Crostab
-
 from palett.enum.font_effects import INVERSE
 
 
@@ -19,7 +18,12 @@ def module_to_dict(module): return {k: getattr(module, k) for k in dir(module) i
 card_collection = module_to_dict(cards)
 
 
-def palett_crostab(space=HEX, colors=None, degrees=None, dyed=False):
+def palett_crostab(
+        space=HEX,
+        colors=entire_colors,
+        degrees=entire_degrees,
+        dyed=False
+):
     crostab: Crostab = samples_to_crostab(card_collection, side=colors, head=degrees).transpose()
     if space != HEX:
         crostab.mutate(hex_rgb if space == RGB else hex_hsl if space == HSL else oneself)
