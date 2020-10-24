@@ -1,4 +1,4 @@
-from palett.enum_font_effects import BOLD
+from palett.enum.font_effects import BOLD
 from palett.presets import FRESH
 from palett.projector.projector import to_projector
 from texting import COSP
@@ -11,7 +11,7 @@ projectorCandidates = [
 def test():
     for vec in projectorCandidates:
         bound = dict(min=1, max=5)
-        projector = to_projector(bound, FRESH, [BOLD])
+        projector = to_projector(bound, FRESH, BOLD)
         colored = [projector(x)(x) for x in vec]
         print(colored)
         print(f'[{COSP.join(colored)}]')

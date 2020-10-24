@@ -1,5 +1,5 @@
-from palett.dyer.rgb.rgb_ansi import rgb_ansi
-from palett.dyer.utils import br, parse_effects
+from palett.dye.rgb.rgb_ansi import rgb_ansi
+from palett.dye.utils import br, parse_effects
 from palett.utils.ansi import CLR_FORE
 
 

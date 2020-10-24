@@ -1,5 +1,5 @@
-from palett.dyer.hex.hex_ansi import hex_ansi
-from palett.dyer.utils import br, parse_effects
+from palett.dye.hex.hex_ansi import hex_ansi
+from palett.dye.utils import br, parse_effects
 from palett.utils.ansi import CLR_FORE
 
 

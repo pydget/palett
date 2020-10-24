@@ -7,7 +7,7 @@ CLR_ITALIC = '23'
 CLR_UNDERLINE = '24'
 CLR_INVERSE = '27'
 
-effects = {
+Effects = {
     'bold': (BOLD, CLR_BOLD),
     'italic': (ITALIC, CLR_ITALIC),
     'underline': (UNDERLINE, CLR_UNDERLINE),

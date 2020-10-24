@@ -1,12 +1,11 @@
 from ject import oneself
-from pyspare import deco_dict
+from pyspare import deco_dict, deco
 
 from palett.convert import hex_rgb, hex_hsl
 from palett.enum.color_space import RGB, HSL, HEX
 import palett.cards as cards
 
-
-# print(deco_dict(vars(cards)))
+print(deco(vars(cards)))
 
 
 def color_picker(color_space):

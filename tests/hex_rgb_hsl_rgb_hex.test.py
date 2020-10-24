@@ -1,5 +1,5 @@
 from palett.convert import hex_rgb, hsl_rgb, rgb_hex, rgb_hsl
-from palett.dyer.hex import dyer, prep_dyer
+from palett.dye.hex import dyer, prep_dyer
 from palett.enum.font_effects import BOLD
 from texting import RT
 
