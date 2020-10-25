@@ -182,7 +182,7 @@ python-versions = "*"
 
 [[package]]
 name = "veho"
-version = "0.0.8"
+version = "0.0.9"
 description = "easy enumerate"
 category = "main"
 optional = false
@@ -263,6 +263,6 @@ toml = [
     {file = "toml-0.10.1.tar.gz", hash = "sha256:926b612be1e5ce0634a2ca03470f95169cf16f939018233a670519cb4ac58b0f"},
 ]
 veho = [
-    {file = "veho-0.0.8-py3-none-any.whl", hash = "sha256:f1488d904c7dc455075d796cdfdd6af71618f7f0ff6abf2d1b6f9e87c22a0275"},
-    {file = "veho-0.0.8.tar.gz", hash = "sha256:12d8eb99c32c1e424f8bc8023dfdafa3a8699b4c868f7b743c035e969e4c299a"},
+    {file = "veho-0.0.9-py3-none-any.whl", hash = "sha256:1249c3ca0143598210934acfd8dd96469e04ecee5d5cf04102c3b33530a1c758"},
+    {file = "veho-0.0.9.tar.gz", hash = "sha256:c77405c0029344297b9c0acdb444391f76669a94ece2febbac7159bef7d223a7"},
 ]
