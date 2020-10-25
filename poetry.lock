@@ -55,6 +55,18 @@ ject = ">=0.0.2"
 veho = ">=0.0.4"
 
 [[package]]
+name = "foba"
+version = "0.0.7"
+description = "placeholder sample objects for test"
+category = "dev"
+optional = false
+python-versions = ">=3.8,<4.0"
+
+[package.dependencies]
+veho = ">=0.0.4"
+way = ">=0.0.1"
+
+[[package]]
 name = "iniconfig"
 version = "1.1.1"
 description = "iniconfig: brain-dead simple config-ini parsing"
@@ -188,10 +200,21 @@ category = "main"
 optional = false
 python-versions = ">=3.8,<4.0"
 
+[[package]]
+name = "way"
+version = "0.0.1"
+description = "filesystem tools"
+category = "dev"
+optional = false
+python-versions = ">=3.8,<4.0"
+
+[package.dependencies]
+ject = ">=0.0.3,<0.0.4"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "25c2e9b9c079da75702a2a88af1439dce76b373c5228492c3ef799ffac4de558"
+content-hash = "547b206af496cd014316e6e3ae8cdd8433815be90956775bd94713d5b7ed9327"
 
 [metadata.files]
 aryth = [
@@ -213,6 +236,10 @@ colorama = [
 crostab = [
     {file = "crostab-0.0.8-py3-none-any.whl", hash = "sha256:b32444ddde5988ef9b9ae0e5b033da5d8dd849254590c06c0670a614285537a3"},
     {file = "crostab-0.0.8.tar.gz", hash = "sha256:86b4a080a7b834f9786f6081a500d3b1882ad846a267042e6b363cde686c0d58"},
+]
+foba = [
+    {file = "foba-0.0.7-py3-none-any.whl", hash = "sha256:244f771b4fb29c8887f7efd24785e7375c2d42bec5956434507ea51d17a05101"},
+    {file = "foba-0.0.7.tar.gz", hash = "sha256:7374ae759a4e91bf3d50ca3d0ac894e6f5a86b900a3ab0f39c22740ce47dc764"},
 ]
 iniconfig = [
     {file = "iniconfig-1.1.1-py2.py3-none-any.whl", hash = "sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3"},
@@ -265,4 +292,8 @@ toml = [
 veho = [
     {file = "veho-0.0.9-py3-none-any.whl", hash = "sha256:1249c3ca0143598210934acfd8dd96469e04ecee5d5cf04102c3b33530a1c758"},
     {file = "veho-0.0.9.tar.gz", hash = "sha256:c77405c0029344297b9c0acdb444391f76669a94ece2febbac7159bef7d223a7"},
+]
+way = [
+    {file = "way-0.0.1-py3-none-any.whl", hash = "sha256:49523a1e16dbea3c58cb0975262b3c08c8965452e089815f52f063c5724f4aa7"},
+    {file = "way-0.0.1.tar.gz", hash = "sha256:4ca55c22ffaf60b97c843aeb3188b8385fa57a100074eabb94b9b8afc701d2b6"},
 ]

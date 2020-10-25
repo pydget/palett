@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "palett"
-version = "0.0.9"
+version = "0.0.10"
 description = "pretty text for command line"
 authors = ["Hoyeung Wong <hoyeungw@outlook.com>"]
 license = "MIT"
@@ -28,6 +28,7 @@ pyspare = ">=0.0.6"
 pytest = ">=6.0.0"
 texting = ">=0.0.2"
 pyspare = ">=0.0.5"
+foba = ">=0.0.7"
 
 [build-system]
 requires = ["poetry>=0.12"]
