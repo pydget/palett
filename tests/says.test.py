@@ -10,7 +10,8 @@ def test():
     print(name, deco_dict(lex))
     says = Says(BOLD)
     for key, value in lex.items():
-        says[key](value)
+        pal = says[key].asc
+        pal(value)
 
 
 test()
