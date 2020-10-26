@@ -4,18 +4,19 @@ DIF = 'dif'
 
 
 def bound_to_leap(bound):
-    if MIN in bound:
-        if DIF in bound and bound[DIF] is not None:
+    if hasattr(bound, MIN):
+        if hasattr(bound, DIF):
             pass
-        elif MAX in bound and bound[MAX] is not None:
-            bound[DIF] = bound[MAX] - bound[MIN]
-    elif DIF in bound:
-        if MAX in bound:
-            bound[MIN] = bound[MAX] - bound[DIF]
+        elif hasattr(bound, MAX):
+            setattr(bound, DIF, (bound.max or 0) - (bound.min or 0))
+    elif hasattr(bound, DIF):
+        if hasattr(bound, MAX):
+            setattr(bound, MIN, (bound.max or 0) - (bound.dif or 0))
         else:
-            bound[MIN] = 0
-    elif MAX in bound:
-        bound[MIN] = 0
+            setattr(bound, MIN, 0)
+    elif hasattr(bound, MAX):
+        setattr(bound, MIN, 0)
     else:
-        bound[MIN] = bound[DIF] = 0
+        setattr(bound, MIN, 0)
+        setattr(bound, DIF, 0)
     return bound

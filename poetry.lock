@@ -1,6 +1,6 @@
 [[package]]
 name = "aryth"
-version = "0.0.7"
+version = "0.0.11"
 description = "numerical & statistics functions"
 category = "main"
 optional = false
@@ -131,7 +131,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
 name = "pyspare"
-version = "0.0.6"
+version = "0.0.7"
 description = "pretty print"
 category = "main"
 optional = false
@@ -214,12 +214,12 @@ ject = ">=0.0.3,<0.0.4"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "547b206af496cd014316e6e3ae8cdd8433815be90956775bd94713d5b7ed9327"
+content-hash = "42bb67ec8c8da6bcff319a7897618624a6cc77796bdc285f3319f6d1357e4893"
 
 [metadata.files]
 aryth = [
-    {file = "aryth-0.0.7-py3-none-any.whl", hash = "sha256:11e8d6336e47fa185efec94b2c71ebdb7ebcb93339af299f8ac3302f51bf1427"},
-    {file = "aryth-0.0.7.tar.gz", hash = "sha256:3d28afd856c5a1d73378e290c4f8af053534aa592a41889c3e10876d592410e5"},
+    {file = "aryth-0.0.11-py3-none-any.whl", hash = "sha256:a70f2f5d23cd76bff8225ae0706bc1cc0a194e98a03aa2e3a84cf5dae3e476fd"},
+    {file = "aryth-0.0.11.tar.gz", hash = "sha256:0cb910987b6f9845e565f9c93a377ac783c1b82917e1fb5a76506c15eaaa694b"},
 ]
 atomicwrites = [
     {file = "atomicwrites-1.4.0-py2.py3-none-any.whl", hash = "sha256:6d1784dea7c0c8d4a5172b6c620f40b6e4cbfdf96d783691f2e1302a7b88e197"},
@@ -270,8 +270,8 @@ pyparsing = [
     {file = "pyparsing-2.4.7.tar.gz", hash = "sha256:c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1"},
 ]
 pyspare = [
-    {file = "pyspare-0.0.6-py3-none-any.whl", hash = "sha256:a61928eaf3f12e923239637c9959da4a46bfc12b0e63c3bbb003676493a63774"},
-    {file = "pyspare-0.0.6.tar.gz", hash = "sha256:4fa21eb074e39075c3b5361b8b0c1d086a0f0814a0ac156204af718aab84b251"},
+    {file = "pyspare-0.0.7-py3-none-any.whl", hash = "sha256:d48273aab7e23cbef278fdcc82de07b63d4eb42e9d689c379bc8fc822a1efe29"},
+    {file = "pyspare-0.0.7.tar.gz", hash = "sha256:61cee7c021077dc51679ae8394814d7b8b2a2dca4a144fa1db41d58212bbccdc"},
 ]
 pytest = [
     {file = "pytest-6.1.1-py3-none-any.whl", hash = "sha256:7a8190790c17d79a11f847fba0b004ee9a8122582ebff4729a082c109e81a4c9"},

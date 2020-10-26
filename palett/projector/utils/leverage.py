@@ -1,3 +1,3 @@
-def leverage(hsl, base):
-    hu, sa, li = hsl
-    return hu / base, sa / base, li / base
+def leverage(xyz, delta):
+    x, y, z = xyz
+    return x / delta, y / delta, z / delta

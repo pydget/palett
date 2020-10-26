@@ -9,4 +9,4 @@ from palett.fluo import \
 from palett.tabular import palett_crostab
 from palett.flopper import palett_flopper
 from palett.dye import DyeFactory, dye
-from palett.projector import to_projector, projector
+from palett.projector import ProjectorFactory, projector

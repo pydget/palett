@@ -1,5 +1,5 @@
 import collections
-import types
+from types import MethodType
 
 from palett.dye.color_to_ansi import rgb_ansi, hsl_ansi, hex_ansi
 from palett.enum.color_spaces import RGB, HEX, HSL
@@ -38,7 +38,7 @@ class DyeFactory:
     def __call__(self, color):
         head = enclose(self.head + SC + self.ansi(color))
         tail = enclose(self.tail + SC + CLR_FORE)
-        return types.MethodType(dye, Cut(head, tail))
+        return MethodType(dye, Cut(head, tail))
 
     def render(self, color, text):
         head = enclose(self.head + SC + self.ansi(color))

@@ -1,25 +1,23 @@
 from typing import Generator
 
 from foba.dicts.dict_strings import dict_collection
-from pyspare import deco_dict
+from pyspare import deco_dict, deco_str
 
-from palett import palett_flopper, DyeFactory
-from palett.enum.color_spaces import HEX
+from palett import palett_flopper
 from palett.enum.font_effects import BOLD
+from palett.structs import Preset
 
 
 class Says:
     flopper: Generator
-    dye_factory: DyeFactory = DyeFactory(HEX, BOLD)
+    effects: tuple
 
-    def __init__(self):
-        self.flopper = palett_flopper()
-        pass
+    def __init__(self, *effects):
+        self.flopper = palett_flopper(to=Preset.rand)
+        self.effects = effects
 
     def __call__(self, name):
-        hex_color = next(self.flopper)
-        dye = self.dye_factory(hex_color)
-        return Pal(dye(name))
+        return Pal(deco_str(name, presets=next(self.flopper), effects=self.effects))
 
 
 class Pal:
@@ -35,7 +33,7 @@ class Pal:
 def test():
     name, lex = dict_collection.flop_shuffle(7)
     print(name, deco_dict(lex))
-    says = Says()
+    says = Says(BOLD)
     for key, value in lex.items():
         says(key)(value)
 
