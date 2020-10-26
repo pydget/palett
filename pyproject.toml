@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "palett"
-version = "0.0.11"
+version = "0.0.12"
 description = "pretty text for command line"
 authors = ["Hoyeung Wong <hoyeungw@outlook.com>"]
 license = "MIT"
@@ -22,7 +22,7 @@ veho = ">=0.0.7"
 intype = ">=0.0.2"
 ject = ">=0.0.1"
 crostab = ">=0.0.6"
-pyspare = ">=0.0.6"
+pyspare = ">=0.0.8"
 
 [tool.poetry.dev-dependencies]
 pytest = ">=6.0.0"

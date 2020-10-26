@@ -17,7 +17,12 @@ class Says:
         self.effects = effects
 
     def __call__(self, name):
-        return Pal(deco_str(name, presets=next(self.flopper), effects=self.effects))
+        preset = next(self.flopper)
+        name = deco_str(name, presets=(preset, preset), effects=self.effects)
+        return Pal(name)
+
+    def __getitem__(self, name):
+        return self.__call__(name)
 
 
 class Pal:
@@ -26,16 +31,5 @@ class Pal:
     def __init__(self, name):
         self.name = name
 
-    def __call__(self, content):
-        print(f'[{self.name}]', content)
-
-
-def test():
-    name, lex = dict_collection.flop_shuffle(7)
-    print(name, deco_dict(lex))
-    says = Says(BOLD)
-    for key, value in lex.items():
-        says(key)(value)
-
-
-test()
+    def __call__(self, *args, sep=' ', end='\n', file=None):
+        print(f'[{self.name}]', *args, sep=sep, end=end, file=file)

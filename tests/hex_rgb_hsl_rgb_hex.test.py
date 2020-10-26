@@ -1,7 +1,9 @@
-from palett.convert import hex_rgb, hsl_rgb, rgb_hex, rgb_hsl
-from palett.dye.hex import dyer, prep_dyer
-from palett.enum.font_effects import BOLD
 from texting import RT
+
+from palett import DyeFactory
+from palett.convert import hex_rgb, hsl_rgb, rgb_hex, rgb_hsl
+from palett.enum.color_spaces import HEX
+from palett.enum.font_effects import BOLD
 
 lex = {
     'black': '#3B4252',
@@ -14,6 +16,8 @@ lex = {
     'white': '#E5E9F0',
 }
 
+dye_factory = DyeFactory(HEX, BOLD)
+
 
 def test():
     for (key, hex_color) in lex.items():
@@ -23,13 +27,13 @@ def test():
         rgb2 = hsl_rgb(hsl)
         hex2 = rgb_hex(rgb2)
         print(
-            dyer(hex_color, BOLD)(key),
+            dye_factory(hex_color)(key),
             RT,
-            prep_dyer(BOLD)(hex_color)(hex_color),
+            dye_factory(hex_color)(hex_color),
             rgb,
             hsl,
             rgb2,
-            prep_dyer(BOLD)(hex2)(hex2)
+            dye_factory(hex2)(hex2)
         )
 
 
