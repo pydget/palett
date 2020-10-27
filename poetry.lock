@@ -131,7 +131,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
 name = "pyspare"
-version = "0.0.8"
+version = "0.0.9"
 description = "pretty print"
 category = "main"
 optional = false
@@ -270,8 +270,8 @@ pyparsing = [
     {file = "pyparsing-2.4.7.tar.gz", hash = "sha256:c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1"},
 ]
 pyspare = [
-    {file = "pyspare-0.0.8-py3-none-any.whl", hash = "sha256:bcabfb7d5db7339d28bcdaa84e809f5a8e13b3a27b7fe68f63a61a7c78e39b28"},
-    {file = "pyspare-0.0.8.tar.gz", hash = "sha256:c99e2940f5e0950b45646c4bc27b67c32f3f19666eb1156e77e75980b84b9424"},
+    {file = "pyspare-0.0.9-py3-none-any.whl", hash = "sha256:f8dba88959005286022c53ac751ba09793a37993d4fe418d53daa6af43c26a1c"},
+    {file = "pyspare-0.0.9.tar.gz", hash = "sha256:6eadbeb14bced4dd1ab3cc3e902ce6d479c957cd9bf24630e06794c754ab2024"},
 ]
 pytest = [
     {file = "pytest-6.1.1-py3-none-any.whl", hash = "sha256:7a8190790c17d79a11f847fba0b004ee9a8122582ebff4729a082c109e81a4c9"},
