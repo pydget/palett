@@ -1,7 +1,9 @@
+from aryth.structs import Leap
+from texting import COSP
+
 from palett.enum.font_effects import BOLD
 from palett.presets import FRESH
 from palett.projector import ProjectorFactory
-from texting import COSP
 
 projectorCandidates = [
     [1, 2, 3, 4, 5]
@@ -10,7 +12,7 @@ projectorCandidates = [
 
 def test():
     for vec in projectorCandidates:
-        bound = dict(min=1, max=5)
+        bound = Leap(min=1, max=5, dif=None)
         projector = ProjectorFactory(bound, FRESH, BOLD)
         colored = [projector(x)(x) for x in vec]
         print(colored)

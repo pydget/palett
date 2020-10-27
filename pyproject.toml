@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "palett"
-version = "0.0.14"
+version = "0.0.15"
 description = "pretty text for command line"
 authors = ["Hoyeung Wong <hoyeungw@outlook.com>"]
 license = "MIT"

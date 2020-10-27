@@ -1,7 +1,7 @@
 from aryth.bound.vector.duobound import duobound
 from aryth.bound.vector.solebound import solebound
 from palett.projector import ProjectorFactory
-from palett.projector.utils.preset_to_flat import preset_to_flat
+from palett.projector.utils import preset_to_flat
 from veho.vector.enumerate import mapper as mapper_fn, mutate as mutate_fn
 
 

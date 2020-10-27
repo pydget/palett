@@ -1,4 +1,4 @@
-from palett.structs import Card
+from palett.structs.card import Card
 
 grey = Card(
     base='#9E9E9E',

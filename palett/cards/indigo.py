@@ -1,4 +1,4 @@
-from palett.structs import Card
+from palett.structs.card import Card
 
 indigo = Card(
     base='#3F51B5',

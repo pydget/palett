@@ -1,4 +1,4 @@
-from palett.structs import Card
+from palett.structs.card import Card
 
 deep_orange = Card(
     base='#FF5722',
