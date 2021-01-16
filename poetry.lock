@@ -168,7 +168,7 @@ testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xm
 
 [[package]]
 name = "texting"
-version = "0.0.12"
+version = "0.0.13"
 description = "misc for string"
 category = "main"
 optional = false
@@ -268,8 +268,8 @@ pytest = [
     {file = "pytest-6.2.1.tar.gz", hash = "sha256:66e419b1899bc27346cb2c993e12c5e5e8daba9073c1fbce33b9807abc95c306"},
 ]
 texting = [
-    {file = "texting-0.0.12-py3-none-any.whl", hash = "sha256:b68f4eec90e6dcb52f82cc1874b34cb7b69dd1b0baedee064be68469e0d41eb1"},
-    {file = "texting-0.0.12.tar.gz", hash = "sha256:abf6e015a026aa8cb9fc6f0deee997037109f3ff03b60c5858df70c026ab1250"},
+    {file = "texting-0.0.13-py3-none-any.whl", hash = "sha256:d18674a6205e0388f825a0d4e0925a40b8a84703fbd8912c4432edd0d7cb05ae"},
+    {file = "texting-0.0.13.tar.gz", hash = "sha256:dabf933f87a0d38481031118a7fa20346b7951ba1b85af517ee567f95b89d595"},
 ]
 toml = [
     {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
